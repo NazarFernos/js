@@ -1,0 +1,12 @@
+var array = [3,5,8,13,16];
+function getSums(arr) {
+	var result = [];
+	if (!arr.length) return result;
+
+	arr.reduce(function(sum,item){
+		result.push(sum);
+		return sum + item;
+	});
+	return result;
+}
+alert(getSums([3,5,8,13,16]));
