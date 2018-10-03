@@ -1,2 +1,3 @@
 # js
-Task js 1
+js lessons
+Mentored by Shostik Andrey
