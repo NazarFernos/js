@@ -1,8 +1,8 @@
 function getSums(arr) {
   var arrSum = 0;
 
-  arr.forEach(function(item) {
-    return arrSum += item;
+  arr.forEach(function(number) {
+    return arrSum += number;
   });
 
   return arrSum;
