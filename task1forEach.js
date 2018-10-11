@@ -2,7 +2,7 @@ function getSums(arr) {
   var arrSum = 0;
 
   arr.forEach(function(number) {
-    return arrSum += number;
+  arrSum += number;
   });
 
   return arrSum;
