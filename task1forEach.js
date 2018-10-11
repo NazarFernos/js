@@ -1,11 +1,11 @@
-var arr = [1, 4, 3, 6, 9];
-var arrSum = 0;
+function getSums(arr) {
+  var arrSum = 0;
 
-arr.forEach(function(item) {
-   arrSum += item;
-   });
-console.log(arrSum);
+  arr.forEach(function(item) {
+    return arrSum += item;
+  });
 
-//item – очередной элемент массива.
-//i – его номер.
-//arr – массив, который перебирается
+  return arrSum;
+}
+
+console.log(getSums([1,4,6,8,9]));
