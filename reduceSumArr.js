@@ -1,13 +1,10 @@
-//reduce sumarrray
-var arr = [1, 4, 3, 6, 9];
-var result = arr.reduce(function(a,b) {
+function getArraySum(arr) {
+  var result = [];
+  if (!arr.length) return result;
+
+  var result = arr.reduce(function(a,b) {
     return a + b;
-}, 0);
-
-console.log( result );
-
-//Сначала анонимная функция вызывается с этим начальным
-//значением и первым элементом массива, результат запоминается
-//и передаётся в следующий вызов, уже со вторым аргументом
-//массива, затем новое значение участвует в вычислениях с
-//третьим аргументом и так далее.
+  },0);
+  return result;
+}
+console.log(getArraySum([1, 4, 3, 6, 9]));
