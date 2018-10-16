@@ -1,0 +1,4 @@
+function getMaxNumber(arr) {
+  return Math.max.apply(null, arr);
+}
+console.log(getMaxNumber([1, 3, 5]));
