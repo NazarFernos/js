@@ -1,7 +1,8 @@
 function getArraySum(arr) {
   var result = [];
-  if (!arr.length) return result;
-
+  if (!arr.length) {
+    return result;
+  }
   var result = arr.reduce(function(a,b) {
     return a + b;
   },0);
