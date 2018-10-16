@@ -7,11 +7,11 @@ function getSortedArray(arr) {
         var b = arr [i];
         arr [i] = arr [a];
         arr [a] = b;
-  }
+      }
     
     }
     
-      }
+  }
   return arr;
 }
 console.log(getSortedArray([122, 0, 1, 4, 3, 55, 6, 9, 2]));
