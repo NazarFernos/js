@@ -10,6 +10,6 @@ function getSortedArray(arr) {
   }
     }
       }
-return arr;
+  return arr;
 }
 console.log(getSortedArray([122, 0, 1, 4, 3, 55, 6, 9, 2]));
