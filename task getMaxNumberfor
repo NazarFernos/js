@@ -1,0 +1,12 @@
+function getMaxNumber(arr) {
+    var arr = [1, 0, 6, -80];
+    var max = arr.length-1, iterationl;
+    for(var i=arr.length-2; i>=0; i--){
+        iterationl = arr[i];
+        if(iterationl>max){
+            max = iterationl;
+        }
+    }
+    return max;
+}
+console.log(getMaxNumber([]));
