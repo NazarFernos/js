@@ -1,0 +1,12 @@
+function getMinNumber(arr) {
+    var arr = [1, 0, 6, -80];
+    var min = arr.length, iterationl;
+    for(var i = arr.length; i >= 0 ; i--){
+        iterationl = arr[i];
+        if(iterationl < min){
+            min = iterationl;
+        }
+    }
+    return min;
+}
+console.log(getMinNumber([]));
