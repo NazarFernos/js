@@ -1,4 +1,0 @@
-function getMinNumber(arr) {
-  return Math.min.apply(null, arr);
-}
-console.log(getMinNumber([1, 3, 5]))
