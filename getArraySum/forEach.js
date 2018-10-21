@@ -1,4 +1,4 @@
-function getSums(arr) {
+function getArraySum(arr) {
   var arrSum = 0;
 
   arr.forEach(function(number) {
@@ -8,4 +8,4 @@ function getSums(arr) {
   return arrSum;
 }
 
-console.log(getSums([1,4,6,8,9]));
+console.log(getArraySum([1,4,6,8,9]));
