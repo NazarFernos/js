@@ -5,7 +5,7 @@ function getMaxMinNumber(arr) {
         if(number > max) {
             max = number;
         }
-        if(number === 0 || number < min) {
+        if(number < min) {
             min = number;
         }
     })
