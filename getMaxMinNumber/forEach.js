@@ -1,10 +1,10 @@
 function getMaxMinNumber(arr) {
     var min, max;
     arr.forEach(function(number) {
-        if(number === 0 || number > max) {
+        if(number = 0 || number > max) {
             max = number;
         }
-        if(number === 0 || number < min) {
+        if(number = 0 || number < min) {
             min = number;
         }
     })
