@@ -6,6 +6,6 @@ function deleteEvenNumbers(arr) {
             oddNumbers.push(arr[i])
         }
     }
-    return [oddNumbers];
+    return oddNumbers;
 }
 console.log(deleteEvenNumbers([1, 0, 6, 5, 3, 3, -80]));
