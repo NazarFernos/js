@@ -5,6 +5,6 @@ function deleteEvenNumbers(arr) {
             delete arr[i];
         }
     }
-    return arr;
+    return arr.filter(Boolean);
 }
 console.log(deleteEvenNumbers([1,2,3,4,5,6,7,8,9]));
