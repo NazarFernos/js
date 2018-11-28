@@ -18,4 +18,4 @@ function isNumberNonDuplicating(n, arr) {
     }
     return count < 2;
 }
-console.log(deleteUnSameNumber([7,5,0,1,2,2,3,5,3,3,0,4,4,-2,-2,-80]));
+console.log(deleteUnSameNumber([7,5,0,1,2,2,3,5,3,3,0,4,4,-2,-2,-80])); //[5, 0, 2, 2, 3, 5, 3, 3, 0, 4, 4]
