@@ -8,9 +8,7 @@ function getSortedArray(arr) {
         arr [i] = arr [a];
         arr [a] = b;
       }
-    
     }
-    
   }
   return arr;
 }
