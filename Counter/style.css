@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: #0095ff;
+  min-width: 50px;
+  max-width: 100px;
+  height: 50px;
+  color: #fff;
+  font-size: 24px;
+}
+#counter {
+  display: inline-block; 
+  background-color: green;
+  font-size: 24px;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+} 
